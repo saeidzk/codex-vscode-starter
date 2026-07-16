@@ -1,0 +1,7 @@
+# Example project-scoped Codex configuration.
+# This file is inactive until copied to .codex/config.toml in a trusted repo.
+
+project_doc_max_bytes = 32768
+project_doc_fallback_filenames = []
+
+# Keep personal model and reasoning preferences in ~/.codex/config.toml.

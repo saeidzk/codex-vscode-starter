@@ -1,0 +1,24 @@
+# Example project-scoped Codex configuration
+#
+# This file is not loaded automatically because its filename ends in `.example`.
+# To activate it, copy or rename it to:
+#
+#   .codex/config.toml
+#
+# Codex loads project-scoped configuration only when the repository is trusted.
+# Review all settings before activating this file.
+
+# Maximum combined size, in bytes, of project instruction documents loaded by
+# Codex. The default is 32768 bytes.
+project_doc_max_bytes = 32768
+
+# Alternative instruction filenames that Codex may use when AGENTS.md is absent.
+# This project uses the standard AGENTS.md filename, so no fallback is needed.
+project_doc_fallback_filenames = []
+
+# Keep personal preferences—such as model selection and reasoning effort—in:
+#
+#   ~/.codex/config.toml
+#
+# Add shared project settings here only when they should apply to every
+# contributor using Codex with this repository.
